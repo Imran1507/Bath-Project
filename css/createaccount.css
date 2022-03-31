@@ -1,0 +1,57 @@
+
+      /* sig in start */
+      #homein{
+        width: 100%;
+        height: 49px;
+        padding-top: 15px;
+        padding-left: 25px;
+        box-sizing: border-box;
+      }
+       /* first fase comp */
+       #homeinmain{
+         width: 100%;
+         height: 839.5px;
+         /* border: 1px solid red; */
+       }
+       #homeinmain1{
+         width: 70%;
+         height: 25%;
+         border-bottom: 1px solid black;
+         margin: auto;
+       }
+       #homeinmain1>img{
+         width: 100%;
+         height: 60%;
+       }
+       /* CREATE AN ACCOUNT start */
+        #createaccount{
+          width: 30%;
+          height: 550px;
+          /* border: 1px solid red; */
+          margin: auto;
+          padding-left: 15px;
+          box-sizing: border-box;
+        }
+        #firstname,#lastname,#email,#confirmemail,#pass{
+          width: 90%;
+          height: 30px;
+          border: 1px solid #e5e5e5;
+        }
+        #privacypolicy{
+          text-align: center;
+        }
+        #createaccount1{
+          width: 45%;
+          height: 30px;
+          margin-left: 110px;
+          background-color: black;
+          color: white;
+        }
+        #lastdiv{
+           text-align: center;
+           margin-top: -45px;
+ 
+         }
+ 
+ 
+         /* signinend */

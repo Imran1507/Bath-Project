@@ -1,0 +1,128 @@
+  /* landing start */
+     
+  .homeimg1{
+    width: 87%;
+    height: 470px;
+    display: block;
+    margin: auto;
+  }
+  #homebigimg{
+    text-align: center;
+  }
+  /* bigimg div end */
+
+
+  /* <!-- TODAY'S TOP OFFERS div start  ID -home today--> */
+  #hometoday1{
+    width: 87%;
+    height: 280px;
+    /* border: 1px solid red; */
+    margin: auto;
+    text-align: center;
+    background-color: #f2f2f2;
+    margin-top: 40px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+  }
+  #hometoday12{
+    width: 80%;
+    height: 68%;
+    /* border: 1px solid red; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+  #hometoday12>div{
+    width: 23%;
+    height: 100%;
+    /* border: 1px solid green; */
+    background-color: white;
+    box-sizing: border-box;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  }
+  .todaybtn{
+    width: 70%;
+    height: 25%;
+    background-color: #333333;
+    color: white;
+  }
+  /* <!-- TODAY'S TOP OFFERS div end --> */
+
+  /* SHOP BY CATEGORY start */
+  #homeshop1{
+    width: 87%;
+    height: 250px;
+    /* border: 1px solid blue; */
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+  }
+  #homeshop2{
+    width: 100%;
+    height: 200px;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+  }
+  #homeshop2>div{
+    width: 14%;
+    height: 100%;
+    /* border: 1px solid red; */
+    
+  }
+  .shopimg{
+    width: 100%;
+  }
+  /* SHOP BY CATEGORY end */
+
+  /* grid img start */
+  #gridimg{
+    display: grid;
+    width: 87%;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,350px);
+   gap: 30px;
+    margin: auto;
+    margin-top: 50px;
+    box-sizing: border-box;
+  }
+  #gridimg>div{
+    /* border: 1px solid red;  */
+    text-align: center;
+    font-size: 13px;
+    line-height: 6px;
+  }
+  .gridimg{
+    width: 100%;
+    height:290px;
+  }
+                /* grid img end */
+
+   #loveimg{
+     width: 96%;
+     height: 380px;
+     display: block;
+     margin: auto;
+   }  
+   #loveimg1{
+     width: 96%;
+     height: 90px;
+     margin: auto;
+     border: 1px solid red;
+     display: flex;
+     justify-content: space-evenly;
+     background-color: #88143f;
+   }  
+   #loveimg1>div{
+     margin-top: 30px;
+     background-color: white;
+     border: 1px solid red;
+     width: 12%;
+     height: 35%;
+     text-align: center;
+     padding-top: 5px;
+     color: #88143f;
+
+   }         

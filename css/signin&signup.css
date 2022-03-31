@@ -1,0 +1,92 @@
+/* sig in start */
+#homein{
+  width: 100%;
+  height: 49px;
+  padding-top: 15px;
+  padding-left: 25px;
+  box-sizing: border-box;
+}
+ /* first fase comp */
+ #homeinmain{
+   width: 100%;
+   height: 739.5px;
+   /* border: 1px solid red; */
+ }
+ #homeinmain1{
+   width: 70%;
+   height: 25%;
+   border-bottom: 1px solid black;
+   margin: auto;
+ }
+ #homeinmain1>img{
+   width: 100%;
+   height: 60%;
+ }
+            /* flex dev start */
+  
+   #homeflex1{
+     width: 70%;
+     height: 60%;
+     display: flex;
+     /* border: 1px solid gold; */
+     margin: auto;
+     margin-top: 10px;
+     box-sizing: border-box;
+   }   
+   .flex1{
+     width: 50%;
+     height: 100%;
+     /* border: 1px solid black; */
+     text-align: center;
+     padding-top: 50px;
+     box-sizing: border-box;
+   }  
+   #flex2{
+     width: 1px;
+     height: 100%;
+   border: 1px solid black;
+   background-color: black;
+   } 
+   #formdiv{
+     margin-top: 5%;
+     padding-left: 40px;
+     line-height: 10px;
+     text-align: left;
+     font-size: 15px;
+     box-sizing: border-box;
+     /* border: 2px solid red; */
+
+   }   
+   /* forminputstart */
+   #login{
+     margin-left: 160px;
+     width: 25%;
+     height: 40px;
+     background-color: black;
+     color: white;
+     justify-content: center;
+   }
+   #email,#pass{
+     width: 55%;
+     height: 25px;
+   }
+   #policy{
+     text-align: center;
+   }
+   /* flef right complete */
+   /* <!-- flef left start --> */
+   #leftimg{
+     width: 90%;
+     height: 150px;
+   }
+   #acountbtn{
+     background-color: black;
+     color: white;
+     height: 40px;
+     width: 45%;
+   }
+   #lastdiv{
+     text-align: center;
+
+   }
+   /* signinend */
