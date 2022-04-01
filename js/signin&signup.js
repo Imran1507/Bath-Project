@@ -21,8 +21,8 @@ document.querySelector("form").addEventListener("submit", loginFunction);
         window.location.href = "index.html";
         break;
       } else {
-        alert("login failed ");
-        break;
+      ("login failed ");
+
       }
     }
   }
