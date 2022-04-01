@@ -1,54 +1,157 @@
-var data2 =[ 
+
+
+var data3 =[
+
   {
     image_url:
-      "https://content.shop4reebok.com/static/Product-GL2296/reebok_GL2296_1.jpg.plp",
-    name: "WOMEN'S REEBOK PRINT LEGGINGS ",
-    price: 1549,
-    strikedoffprice: 1799,
+      "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.20f/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwf9b1131b/crop/026237209_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+    name: "Ocean ",
+    price: 229,
+    
   },
   {
     image_url:
-      "https://content.shop4reebok.com/static/Product-GV5726/reebok_GV5726_1.jpg.plp",
-    name: "WOMEN'S REEBOK POLYTIGHT",
-    price: 1249,
-    strikedoffprice: 1749,
+      "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.20f/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw9780e832/crop/026270017_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+    name: " TeakWood",
+    price: 450,
+    
   },
   {
     image_url:
-      "https://content.shop4reebok.com/static/Product-GT2338/reebok_GT2338_1.jpg.plp",
-    name: "WOMEN'S REEBOK SLEEVE TEE",
-    price: 699,
-    strikedoffprice: 1245,
+      "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.20f/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw1f5aaea3/crop/026267872_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+    name: "Bourbon ",
+    price: 375,
+    
   },
   {
     image_url:
-      "https://content.shop4reebok.com/static/Product-GL2841/adidas_GL2841_1.jpg.plp",
-    name: "WOMEN'S REEBOK PP TIGHTS",
-    price: 749,
-    strikedoffprice: 1299,
+      "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.20f/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwe48030b9/crop/026397467_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+    name: "Black Tie ",
+    price: 599,
+    
   },
   {
     image_url:
-      "https://content.shop4reebok.com/static/Product-GL2842/adidas_GL2842_1.jpg.plp",
-    name: "WOMEN'S REEBOK PP TIGHTS",
-    price: 749,
-    strikedoffprice: 1299,
+      "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.20f/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw67bdae98/crop/026398463_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+    name: "Black Tie ",
+    price: 599,
+    
   },
   {
     image_url:
-      "https://content.shop4reebok.com/static/Product-GK6777/reebok_GK6777_1.jpg.plp",
-    name: "WOMEN'S REEBOK CLASSIC LEGGINGS",
-    price: 1399,
-    strikedoffprice: 2799,
+      "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.20f/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw058c734a/crop/026419455_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+    name: "Vintage ",
+    price: 480,
+    
   },
+  {
+    image_url:
+      "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.20f/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw54d6939b/crop/026397499_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+    name: "Black Tie ",
+    price: 389,
+    
+  },
+  {
+    image_url:
+      "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.20f/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwa2489ef3/crop/026282783_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+    name: "Ocean ",
+    price: 229,
+    
+  },
+  {
+    image_url:
+      "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.20f/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw09f9ed63/crop/026282786_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+    name: "Grafite ",
+    price: 999,
+    
+  },
+  {
+    image_url:
+      "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.20f/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwc6262222/crop/026177563_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+    name: "Teak Wood ",
+    price: 559,
+    
+  },
+  {
+    image_url:
+      "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.20f/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwf9b1131b/crop/026237209_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+    name: "Ocean ",
+    price: 229,
+    
+  },
+  {
+    image_url:
+      "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.20f/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw9780e832/crop/026270017_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+    name: " TeakWood",
+    price: 450,
+    
+  },
+  {
+    image_url:
+      "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.20f/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw1f5aaea3/crop/026267872_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+    name: "Bourbon ",
+    price: 375,
+    
+  },
+  {
+    image_url:
+      "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.20f/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwe48030b9/crop/026397467_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+    name: "Black Tie ",
+    price: 599,
+    
+  },
+  {
+    image_url:
+      "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.20f/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw67bdae98/crop/026398463_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+    name: "Black Tie ",
+    price: 599,
+    
+  },
+  {
+    image_url:
+      "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.20f/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw058c734a/crop/026419455_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+    name: "Vintage ",
+    price: 480,
+    
+  },
+  {
+    image_url:
+      "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.20f/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw54d6939b/crop/026397499_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+    name: "Black Tie ",
+    price: 389,
+    
+  },
+  {
+    image_url:
+      "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.20f/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwa2489ef3/crop/026282783_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+    name: "Ocean ",
+    price: 229,
+    
+  },
+  {
+    image_url:
+      "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.20f/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw09f9ed63/crop/026282786_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+    name: "Grafite ",
+    price: 999,
+    
+  },
+  {
+    image_url:
+      "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.20f/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwc6262222/crop/026177563_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+    name: "Teak Wood ",
+    price: 559,
+    
+  },
+  
 ]
 
 var cartData = JSON.parse(localStorage.getItem("cart")) || [];
-data2.map(function (elem) {
+data3.map(function (elem) {
   var box = document.createElement("div");
 
   var img = document.createElement("img");
   img.src = elem.image_url;
+  img.setAttribute("id","immy")
 
   var name = document.createElement("p");
   name.textContent = elem.name;

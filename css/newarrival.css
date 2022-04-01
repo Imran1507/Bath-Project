@@ -76,12 +76,14 @@
      margin-top: 10px;
      border-top: 2px solid #d1c9ca;
      border-bottom:2px solid #d1c9ca;
+     
    }
                /* js start  */
    #p1js {
      display: grid;
      grid-template-columns: repeat(4, 1fr);
      gap: 20px;
+     margin-top: 15px;
    }
    #p1js>div{
      text-align: center;
@@ -99,4 +101,7 @@
  #clone{
    border: 1px solid green;
  }
-
+#immy{
+  width: 120px;
+  height: 170px;
+}
